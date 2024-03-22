@@ -1,4 +1,5 @@
 import { Nav } from './components'
+import { PopularProducts } from './sections'
 import Hero from './sections/Hero'
 
 const App = () => {
@@ -7,6 +8,9 @@ const App = () => {
       <Nav />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
+      </section>
+      <section className="padding">
+        <PopularProducts />
       </section>
     </main>
   )
