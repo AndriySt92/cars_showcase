@@ -1,5 +1,5 @@
 import { Nav } from './components'
-import { PopularProducts } from './sections'
+import { PopularProducts, SuperQuality } from './sections'
 import Hero from './sections/Hero'
 
 const App = () => {
@@ -11,6 +11,9 @@ const App = () => {
       </section>
       <section className="padding">
         <PopularProducts />
+      </section>
+      <section className="padding">
+        <SuperQuality />
       </section>
     </main>
   )
